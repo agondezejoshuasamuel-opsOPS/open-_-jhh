@@ -12,7 +12,8 @@ int main()
 
    while (continue_shopping) {
       printf("\n====================================\n");
-      printf("      COLD DRINK VENDING MACHINE\n");
+      printf("*" * 20);
+      printf("\t\tCOLD DRINK VENDING MACHINE\n");
       printf("====================================\n");
       printf("1. Coke - UGX.1500\n2. Pepsi - UGX.1000\n3. Sprite - UGX.1500\n4. Fanta - UGX.1500\n5. Mirinda - UGX.1000\n6. Exit\n\n");
       printf("Enter your choice: ");
